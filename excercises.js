@@ -203,18 +203,41 @@ function excercise12() {
 }
 
 function excercise13() {
-  let correctUser = "angelica"
-  let correctPass = "123"
-  let user = prompt("Enter your user").toLowerCase();
+  let correctPass = "123";
   let pass = prompt("Enter your password");
   const maxAttempts = 3;
   let attempt = 0;
 
-  if (user == "angelica") {
-    if (pass == "angelica") {
-
-
+  if (pass != correctPass) {
+    while (attempt < maxAttempts) {
+      attempt++;
+      if (attempt > maxAttempts) {
+        alert("User blocked");
+      } else if (attempt < maxAttempts) {
+        let pass = prompt("Enter your password");
+        if (pass == correctPass) {
+          alert("Welcome to the platform!");
+        }
+      }
+      break;
     }
+  } else if (pass == correctPass) {
+    alert("Welcome to the platform!");
   }
-
 }
+
+function excercise14() {
+  let name = prompt("Enter you name");
+  let strCount = name.length;
+
+  while ()
+
+  if (strCount <= 3) {
+    alert("Error: your name contains less than 3 characters");
+  } else if (strCount > 3) {
+    let namesList = [];
+    alert(`${namesList} contains more than 3 characters`);
+  }
+}
+
+excercise14();
