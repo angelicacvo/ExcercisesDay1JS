@@ -1,4 +1,4 @@
-function excercise1() {
+function exercise1() {
   let name = "Angelica";
   let age = 25;
   let height = 1.6;
@@ -10,14 +10,9 @@ function excercise1() {
   console.log(height, "tipo: ", typeof height);
   console.log(city, "tipo: ", typeof city);
   console.log(pets, "tipo: ", typeof pets);
-
-  name = "Sara";
-  console.log(name, "tipo: ", typeof name);
-  age = 22;
-  console.log(age, "tipo: ", typeof age);
 }
 
-function excercise3() {
+function exercise3() {
   let shelterPetQuantity = 143;
   let housePetQuantity = 2;
 
@@ -29,7 +24,7 @@ function excercise3() {
   console.log(firstName + " " + lastName);
 }
 
-function excercise4() {
+function exercise4() {
   let age = prompt("Enter your age ");
   age = parseInt(age);
 
@@ -40,7 +35,7 @@ function excercise4() {
   }
 }
 
-function excercise5() {
+function exercise5() {
   let numberOfProducts = prompt(
     "Enter the number of products buyed by the client"
   );
@@ -52,7 +47,7 @@ function excercise5() {
   }
 }
 
-function excercise6() {
+function exercise6() {
   let grade = prompt("Enter the student grade ");
 
   if (grade < 3) {
@@ -64,7 +59,7 @@ function excercise6() {
   }
 }
 
-function excercise7() {
+function exercise7() {
   let semaphore = prompt("Enter the semaphore color");
 
   if (
@@ -87,7 +82,7 @@ function excercise7() {
   }
 }
 
-function excercise8() {
+function exercise8() {
   let age = prompt("Enter your age");
 
   if (age >= 15 && age <= 35) {
@@ -109,7 +104,7 @@ function excercise8() {
   }
 }
 
-function excercise9() {
+function exercise9() {
   let account = parseInt(prompt("Enter the value in your account"));
 
   if (account < 10000) {
@@ -124,7 +119,7 @@ function excercise9() {
   }
 }
 
-function excercise10() {
+function exercise10() {
   let day = prompt("Enter the day to search the menu").toLowerCase();
 
   switch (day) {
@@ -155,7 +150,7 @@ function excercise10() {
   }
 }
 
-function excercise11() {
+function exercise11() {
   let user = prompt("Enter your user").toLowerCase();
   let pass = prompt("Enter your password");
 
@@ -182,7 +177,7 @@ function excercise11() {
   }
 }
 
-function excercise12() {
+function exercise12() {
   let hour = prompt(
     "Enter the hour of the day: [m] morning, [a] afternoon [n] night"
   ).toLowerCase();
@@ -202,7 +197,7 @@ function excercise12() {
   }
 }
 
-function excercise13() {
+function exercise13() {
   let correctPass = "123";
   let pass = prompt("Enter your password");
   const maxAttempts = 3;
@@ -226,18 +221,35 @@ function excercise13() {
   }
 }
 
-function excercise14() {
+function exercise14() {
   let name = prompt("Enter you name");
   let strCount = name.length;
 
-  while ()
+  
 
-  if (strCount <= 3) {
-    alert("Error: your name contains less than 3 characters");
-  } else if (strCount > 3) {
-    let namesList = [];
-    alert(`${namesList} contains more than 3 characters`);
-  }
+
+
+
+
+
+
+
+
+
+
+
 }
 
-excercise14();
+exercise14();
+
+// for (let counter = 0; counter <= 5; counter++) {
+//   if (strCount > 3) {
+//     let name = prompt("Enter you name");
+//     let namesList = [];
+//     namesList.push(name);
+//     alert(`${namesList} contains more than 3 characters`);
+//   } else if (strCount <= 3) {
+//     alert("Error: your name contains less than 3 characters");
+//     break;
+//   }
+// }
