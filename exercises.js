@@ -223,33 +223,23 @@ function exercise13() {
 
 function exercise14() {
   let name = prompt("Enter you name");
-  let strCount = name.length;
+  let namesList = [];
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  for (let counter = 0; counter <= 4; counter++) {
+    name = prompt("Enter you name");
+    if (name.length > 3) {
+      namesList.push(name);
+      alert("Nice");
+    } else {
+      alert("Error: your name contains less than 3 characters");
+    }
+  }
+  alert(namesList);
 
 }
 
-exercise14();
+function exercise15(){
+  
+}
 
-// for (let counter = 0; counter <= 5; counter++) {
-//   if (strCount > 3) {
-//     let name = prompt("Enter you name");
-//     let namesList = [];
-//     namesList.push(name);
-//     alert(`${namesList} contains more than 3 characters`);
-//   } else if (strCount <= 3) {
-//     alert("Error: your name contains less than 3 characters");
-//     break;
-//   }
-// }
+
